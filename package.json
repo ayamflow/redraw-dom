@@ -1,0 +1,30 @@
+{
+  "name": "redraw-dom",
+  "version": "1.0.0",
+  "description": "Forces the browser to synchronously redraw a DOM node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/prova ./test.js -b -l phantom -q",
+    "test-browser": "./node_modules/.bin/prova ./test.js -b -l chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayamflow/redraw-dom.git"
+  },
+  "keywords": [
+    "dom",
+    "redraw",
+    "refresh",
+    "repaint",
+    "reflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayamflow/redraw-dom/issues"
+  },
+  "homepage": "https://github.com/ayamflow/redraw-dom#readme",
+  "devDependencies": {
+    "prova": "^2.1.2"
+  }
+}
