@@ -9,7 +9,8 @@ Before using this, you might want to try the `backface-visibility: hidden;` hack
 
 ## API
 
-- redraw(el, display)
+- `redraw(el, display)`
+
 redraw the `el` element (must be a DOM node). `display` is the display style you want restored on the element (defaults to `block`).
 
 ## Example
